@@ -1,0 +1,65 @@
+@white: #fff;
+@blue: #0073ea;
+@green: #2ECC71;
+
+.ui-datepicker {
+    background-color: @white;
+    width: 216px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+
+    &-group {
+        width: 48%;
+
+        &-first {
+            float: left;
+        }
+
+        &-last {
+            float: right;
+        }
+    }
+
+    &-calendar {
+        width: 100%;
+
+        td {
+            text-align: center;
+        }
+
+        .ui-datepicker-unselectable .ui-state-default {
+            color: #ccc;
+        }
+
+        .ui-state-default {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 13px;
+            color: #000;
+            font-weight: 600;
+        }
+    }
+
+    &-dayRange .ui-state-default,
+    &-dayRange-highlight .ui-state-default {
+        background-color: @blue;
+        color: @white;
+    }
+
+    &-dayRange-in .ui-state-default,
+    &-dayRange-in-highlight .ui-state-default {
+        background-color: @green;
+        color: @white;
+    }
+
+    &-dayRange-out .ui-state-default,
+    &-dayRange-out-highlight .ui-state-default {
+        background-color: @green;
+        color: @white;
+    }
+}

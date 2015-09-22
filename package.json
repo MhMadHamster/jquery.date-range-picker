@@ -1,0 +1,21 @@
+{
+  "name": "jquery.date-range-picker",
+  "version": "0.0.1",
+  "description": "wrapper for default jquery-ui datepicker",
+  "main": "jquery-2.1.4.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mhmad.hamster@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-less": "^3.0.3",
+    "gulp-plumber": "^1.0.1",
+    "opn": "^3.0.2"
+  },
+  "directories": {
+    "example": "example"
+  }
+}

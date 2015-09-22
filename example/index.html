@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+    <div class="date-wrapper trash">
+        <input type="text" class="date_arr date">
+        <input type="text" class="date_dep date">
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.date-range-picker.js"></script>
+
+    <script type="text/javascript">
+        ;(function($) {
+            $(document).ready(function() {
+                $('.date-wrapper').dateRangePicker();
+            });
+        })(jQuery);
+    </script>
+</body>
+</html>
